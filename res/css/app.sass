@@ -1,0 +1,68 @@
+//Colors
+$primary: #BA9487
+$accent: #FF9A9A
+$aux: #FFCCB4
+$highlight: #FFCCB4
+$main-bg: #FFDEC3
+
+// fonts
+$font-family: 'Dosis', sans-serif
+
+//General
+*
+  color: $aux
+  font-family: $font-family
+
+body, html
+  height: 100%
+  margin: 0
+
+h2
+  margin: 4em 0 0 1.5em
+  padding: 0
+  float: right
+
+
+//Background
+.background
+  min-height: 100%
+  background: linear-gradient(to right, rgba(80, 80, 80, 0.56), rgba(0, 0, 0, .8)), url('../images/bg.jpg')
+  background-size: cover
+
+  //full height
+  height: 100%
+
+  //center and scale image nicely
+  background-position: center
+  background-repeat: no-repeat
+  background-size: cover
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  -ms-background-size: cover
+  -o-background-size: cover
+
+  //quote
+  .row
+    margin: 2em 0 0 0
+
+//nav
+nav
+  padding: 0 2em 1em 2em
+  background-color: transparent
+  box-shadow: none
+
+  .nav-wrapper a
+    color: $main-bg
+
+    ul a
+      color: $main-bg
+
+  ul a:hover
+    background-color: $aux
+    color: black
+
+  transition: all ease-out 300ms
+
+
+.footer
+  margin: 6em 0 0 0
